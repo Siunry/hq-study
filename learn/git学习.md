@@ -114,7 +114,6 @@ $ git config --global --list`
 - `git rm fliename`将文件从本地和暂存区中都删除
   - `git rm --cached filename` 只删除版本库中删除,不删除本地文件
     - 其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”。
-- 
 - `git checkout -- test.txt` 将误删除的文件恢复到最新版本
 
 ### 配置远程库
@@ -185,3 +184,14 @@ $ git config --global --list`
   
 
 - ==当前`git switch -c dev`一般使用switch==
+
+# 使用vscode操作
+
+## 打开vscode界面
+
+- 在终端仓库所在路径中直接运行`code`指令即可打开vscode窗口.操作此仓库
+
+vscode中文件字母标识含义:
+
+![image-20240812203211110](C:\Users\Somnium\AppData\Roaming\Typora\typora-user-images\image-20240812203211110.png) 
+
